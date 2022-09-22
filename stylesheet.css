@@ -31,13 +31,27 @@ li {
     color: #ADADAD;
 }
 
-input[type=text] {
+.wrapper {
     float: right;
-    border: 1px solid white;
-    margin-top: 33px;
+    margin-top: 30px;
     margin-right: 180px;
-    font-size: 15px;
-    border-radius: 15px;
+    min-width: 100px;
+}
+
+.search-icon {
+    position: relative;
+    top: 7px;
+    left: 30px;
+    width: 20px;
+}
+
+.search {
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 20px;
+    width: 35%;
+    padding: 6px 23px 2px 30px;
+    outline: 0;    
 }
 
 .flex-container {
@@ -58,7 +72,7 @@ input[type=text] {
     margin-left: 64px;
 }
 
-button {
+/* button {
     margin-left: 64px;
     border: none;
     border-radius: 10px;
@@ -66,13 +80,26 @@ button {
     font-size: 24px;
     font-weight: 400;
     padding: 14px;
+} */
+
+.btn {
+    margin-left: 40px;    
 }
 
-.cart {
+.btn-icon {
+    position: relative;
+    top: 3px;
+    left: 70px;
     width: 20px;
-    height: 20px;
-    border: 1px solid red;
-    margin-right: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    width: 290px;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 14px;  
 }
 
 p {
