@@ -5,12 +5,20 @@ html, body {
     height: 100%;
     margin: 0;
     color: white;
-    background-color: brown;
     overflow: hidden;
 }
 
-ul {
-    padding-left: 50px;
+.header {    
+    height: 90px;
+}
+
+.header-logo {
+    float: left;
+    margin-right: 450px;
+    width: 70px;
+    height: 35px;
+    margin-left: 64px;
+    margin-top: 35px;
 }
 
 li {
@@ -22,16 +30,6 @@ li {
 .dull {
     color: #ADADAD;
 }
-  
-.header {    
-    height: 90px;
-}
-  
-.header-logo {
-    float: left;
-    padding: 5px 40px;
-    margin-right: 450px;
-}
 
 input[type=text] {
     float: right;
@@ -40,10 +38,6 @@ input[type=text] {
     margin-right: 180px;
     font-size: 15px;
     border-radius: 15px;
-}
-
-.body1 {
-    display: block;
 }
 
 .flex-container {
@@ -90,15 +84,24 @@ p {
     font-family: 'Nunito', sans-serif;
 }
 
-img {
+.shoe {
     height: 600px;
     width: 600px;    
     margin-top: 50px;
 }
 
-/* .footer {
-    color: black;   
-} */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.l_arrow {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 64px;
+}
 
 .prev {
     width: 62px;
@@ -107,11 +110,10 @@ img {
     font-weight: 400;
     font-size: 24px;
     line-height: 33px;
-    margin-left: 64px;
+    margin-left: 4px;
 }
 
 .next {
-    display: inline;
     float: right;    
     width: 62px;
     height: 33px;
@@ -119,10 +121,19 @@ img {
     font-weight: 400;
     font-size: 24px;
     line-height: 33px;
-    margin-right: 64px;
+    margin-right: 610px;
+    padding-left: 1200px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+.r_arrow {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-left: -600px;
+    margin-top: 5px;
+}
+
+.footer {    
+    display: flex;
+    height: 90px;
 }
