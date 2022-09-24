@@ -72,16 +72,6 @@ li {
     margin-left: 64px;
 }
 
-/* button {
-    margin-left: 64px;
-    border: none;
-    border-radius: 10px;
-    width: 280px;
-    font-size: 24px;
-    font-weight: 400;
-    padding: 14px;
-} */
-
 .btn {
     margin-left: 40px;    
 }
@@ -115,6 +105,23 @@ p {
     height: 600px;
     width: 600px;    
     margin-top: 50px;
+}
+
+#shadow {
+    /* border: 1px solid yellow;
+    z-index: 2; */
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        #5b5b5b 0%,
+        rgba(91, 91, 91 0) 100%
+    );
+    transform: rotate(-16.69deg);
+    width: 520px;
+    filter: blur(7px);
+    height: 70px;
+    position: absolute;
+    bottom: 200px;
+    left: 680px;
 }
 
 a {
