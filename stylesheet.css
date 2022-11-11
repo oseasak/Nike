@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     color: white;
     overflow: hidden;
 }
 
-.header {    
+.header {
     height: 90px;
 }
 
@@ -51,7 +52,7 @@ li {
     height: 20px;
     width: 35%;
     padding: 6px 23px 2px 30px;
-    outline: 0;    
+    outline: 0;
 }
 
 .flex-container {
@@ -73,7 +74,7 @@ li {
 }
 
 .btn {
-    margin-left: 40px;    
+    margin-left: 40px;
 }
 
 .btn-icon {
@@ -89,7 +90,7 @@ button {
     width: 290px;
     font-size: 24px;
     font-weight: 400;
-    padding: 14px;  
+    padding: 14px;
 }
 
 p {
@@ -103,18 +104,16 @@ p {
 
 .shoe {
     height: 600px;
-    width: 600px;    
+    width: 600px;
     margin-top: 50px;
 }
 
 #shadow {
     /* border: 1px solid yellow;
     z-index: 2; */
-    background: radial-gradient(
-        50% 50% at 50% 50%,
-        #5b5b5b 0%,
-        rgba(91, 91, 91 0) 100%
-    );
+    background: radial-gradient(50% 50% at 50% 50%,
+            #5b5b5b 0%,
+            rgba(91, 91, 91 0) 100%);
     transform: rotate(-16.69deg);
     width: 520px;
     filter: blur(7px);
@@ -148,7 +147,7 @@ a {
 }
 
 .next {
-    float: right;    
+    float: right;
     width: 62px;
     height: 33px;
     font-style: normal;
@@ -167,7 +166,7 @@ a {
     margin-top: 5px;
 }
 
-.footer {    
+.footer {
     display: flex;
     height: 90px;
 }
